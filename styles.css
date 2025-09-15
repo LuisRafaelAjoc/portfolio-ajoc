@@ -38,6 +38,8 @@ body {
     justify-content: center;
 }
 .project {
+    display: flex;
+    gap: 20px;
     background: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 1px 4px rgba(0,0,0,0.08);
@@ -45,7 +47,7 @@ body {
     width: 260px;
     text-align: center;
     width: 700px;
-    height: 700px;
+    height: 350px;
 }
 .project h2 {
     font-size: 1.2em;
@@ -64,4 +66,30 @@ a {
 
 .project img {
     border: 2px solid black;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
+
+.project-desc {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    /* display: flex; */
+    justify-content: center;
+    align-content: center;
+}
+
+/* @media (max-width: 600px) {
+  .container, .project {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+} */
