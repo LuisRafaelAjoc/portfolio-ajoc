@@ -31,6 +31,33 @@ body {
 .profile p {
     color: #555;
 }
+
+.profile-info {
+    display: flex;
+    align-items: stretch;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 10px;
+}
+
+.profile-desc {
+    width: 450px;
+    border-right: 5px solid black;
+    height: 200px;
+    padding: 20px;
+    text-align: right;
+}
+
+.interests {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    width: 450px;
+    padding: 20px;
+    text-align: left;
+    /* gap: 20px; */
+}
+
 .projects {
     display: flex;
     gap: 20px;
