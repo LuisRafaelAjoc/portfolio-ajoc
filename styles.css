@@ -1,3 +1,7 @@
+h1 {
+    text-align: center;
+}
+
 body {
     font-family: Arial, sans-serif;
     background: #f4f4f4;
@@ -75,6 +79,34 @@ body {
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.education .card {
+    width: 325px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* background-color: red; */
+    text-align: center;
+    justify-content: center;
+    border: 5px solid black;
+    /* display: flex; */
+    gap: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    /* align-content: center; */
+}
+
+.education .card img {
+    width: 200px;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: black;
 }
 
 .projects {
