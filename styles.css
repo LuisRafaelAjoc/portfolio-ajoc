@@ -75,6 +75,7 @@ body {
     justify-content: center;
 }
 .project {
+    border: 5px solid black;
     display: flex;
     gap: 20px;
     background: #f9f9f9;
